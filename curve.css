@@ -287,16 +287,16 @@ body{
 }
 
 .message-img{
-    height:155px;
-    width:70%;
+    height:145px;
+    width:60%;
     border-radius:5px;
-   margin:5px 0px 0px 45px;
+   margin:5px 0px 0px 55px;
 }
 
 .message-para{
     padding:10px 5px 0px 5px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:15px;
+    font-size:14px;
     font-weight:10;
     opacity:0.7;
     text-align:left;
@@ -329,18 +329,63 @@ body{
 .sixth{
     height:700px;
     width:100%;
-    background-color:rgb(242, 243, 192);
+    background-color:rgb(210, 238, 241);
     
 }
 
 .student-title{
    
+    cursor:pointer;
     text-align:center;
     font-size:45px;
     font-family:sans-serif;
     opacity:0.7;
-    padding:150px 0px 0px 0px;
+    padding:140px 0px 0px 0px;
 
 
 
+}
+
+.student-fac1{
+    position: absolute;
+    float:left;
+    font-family:sans-serif;
+    transform: rotate(-50deg);
+    top:3013px;
+    left:285px;
+    opacity:0.8;
+}
+
+
+.student-fac{
+    position: absolute;
+    float:left;
+    font-family:sans-serif;
+    transform: rotate(-50deg);
+    top:3010px;
+    left:765px;
+    opacity:0.8;
+}
+
+
+
+
+
+
+
+.google-maps{
+    height:375px;
+    width:100%;
+    background-color:rgb(0, 255, 115);
+}
+
+.maps{
+    height:373px;
+    width:100%;
+}
+
+.quick-link{
+    height:285px;
+    width:100%;
+    background:rgb(1, 1, 32);
 }
